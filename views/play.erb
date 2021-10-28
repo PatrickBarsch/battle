@@ -1,6 +1,8 @@
 <%= "#{@player_name_1} vs #{@player_name_2}"%>
 <br>
-<%= "#{@player_name_2} Hitpoints: 70" %>
+<%= "#{@player_name_2} Hitpoints: #{@player_hitpoints_2}" %>
 <form action="/attack_player_2" method="get">
   <input type="submit" value="Attack Player 2">
 </form>
+<br>
+Player 2 attacked!
