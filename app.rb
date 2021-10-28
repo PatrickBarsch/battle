@@ -23,6 +23,10 @@ class Battle < Sinatra::Base
     erb :play
   end
 
+  get '/attack_player_2' do
+    erb :attack_player_2
+  end
+
   run! if app_file == $0
 
 end
